@@ -1,0 +1,66 @@
+
+
+body {
+    content: "";
+    background: url("../images/Background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    -webkit-filter: brightness(95%);
+}
+
+
+div > img {
+    width: 112px;
+    height: 111px;
+}
+
+div > p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+.card__insta {
+
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(4px);
+    
+    width: 312px;
+    height: 54px;
+}
+
+.card__insta > a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+}
+ .title {
+     font-family: 'Inter', sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px
+ }
+ 
+ 
+
